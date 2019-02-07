@@ -36,7 +36,7 @@ All HTTP requests to Flask are made via encrypted POST messages. The system is d
 <p align="left">
   The recommender comprimises of a collection of over 10000 movies taken from the Open Movie Database implemented in GraphLab IDE and is accompanied by a search optimization function which allows to search similar movies to the users.The technique is based on a collaborative filtering algorithm which clusters the similar interest users into a single region and thereby provides relevant recommendations efficiently.
 </p>
-<h3 Navigation diagram></h3>
+<h3>Navigation diagram></h3>
 <br>
 <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/nav.jpg"/>
   

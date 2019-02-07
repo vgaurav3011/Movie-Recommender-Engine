@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html><html lang='en' class=''>
+<title>Login</title>
+<head>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='img/itachi.ico') }}">
+
+		
+	<link href="{{ url_for('static', filename=  'css/bootstrap.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url_for('static', filename=  'css/style.css') }}" rel="stylesheet" type="text/css">
+		<link href="{{ url_for('static', filename=  'css/username.css') }}" rel="stylesheet" type="text/css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+<style>
+	body{
+		background-image: url("img/login_back.gif");
+		background-size: cover;
+	}
+</style>
+</head>
+<body>
+
+
+				<nav class="main-nav-outer" id="test">
+						<!--main-nav-start-->
+						<div class="container">
+							<ul class="main-nav">
+								<li><a href="/">Home</a></li>
+								<li><a href="/log">Login</a></li>
+								<li><a href="/signup">Sign up</a></li>
+								<li class="small-logo"><a href="#header"><img src="img/source.gif" alt=""></a></li>
+								<li><a href="http://localhost:32212/view/326065f1-d373-4b34-9812-e0db098191e0#/explore">Review</a></li>
+								<li><a href="/visual">Visual</a></li>
+								<li><a href="/login">Book Ticket</a></li>
+							</ul>
+							<a class="res-nav_click" href="#"><i class="fa fa-bars"></i></a>
+						</div>
+					</nav>
+					<div class="container">
+
+				<div id="login-row" class="row justify-content-center align-items-center">
+					<div id="login-column" class="col-md-6">
+						<div class="box">
+							<div class="shape1"></div>
+							<div class="shape2"></div>
+							<div class="shape3"></div>
+							<div class="shape4"></div>
+							<div class="shape5"></div>
+							<div class="shape6"></div>
+							<div class="shape7"></div>
+							<div class="float">
+								<form class="form" method="POST">
+									<div class="form-group">
+										<label for="username" class="text-white">Username:</label><br>
+										<input type="text" name="username" id="username" class="form-control">
+									</div>
+									<div class="form-group">
+										<label for="password" class="text-white">Password:</label><br>
+										<input type="text" name="password" id="password" class="form-control">
+									</div>
+									<div class="form-group">
+										<input type="submit" name="submit" class="btn btn-info btn-md" value="Let me in">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+</body>
+</html>

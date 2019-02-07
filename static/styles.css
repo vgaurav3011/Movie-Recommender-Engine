@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'productreg';
+    src: url('productreg.ttf');
+}
+@font-face {
+    font-family: 'productbold';
+    src: url('productbold.ttf');
+}
+body{
+	font-family: 'productreg';
+	color: #FFFFFF;
+	background-image: url("images/login2.gif");
+	background-size: cover;
+}
+.container-fluid{
+	margin-top: -110px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.login-header{
+	background: white;
+	text-align: center;
+	border-radius: 33%;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	z-index: 700;
+	position: relative;
+	box-shadow: 0 10px 30px rgba(17, 17, 17, 0.10), 0 6px 12px rgba(17, 17, 17, 0.10);
+	transition: all 0.6s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+}
+.after-login{
+	border-radius: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-bottom: 5px;
+	padding-top: 110px;
+}
+.login-header.after-login h4{
+	font-size: 15px;
+	margin-top: 0;
+}
+.login-header.after-login h1{
+	font-size: 55px;
+}
+.login-header.after-login i{
+	font-size: 65px;
+}
+.login-header h1{
+	color: #FFFFFF;
+	font-family: 'productbold';
+	font-size: 75px;
+	display: inline;
+	vertical-align: middle;
+	transition: all 0.6s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+}
+.login-header i{
+	color: #fbc02d;
+	font-size: 100px;
+	display: inline;
+	vertical-align: middle;
+	margin-right: 2%;
+	transition: all 0.6s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+}
+.login-header h4{
+	color: #FFFFFF;
+	font-size: 20px;
+	transition: all 0.6s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+}
+.module{
+	transition: all 0.6s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+	z-index: 500;
+	width: 50%;
+	margin: -150px auto 50px;
+	padding-top: 180px; 
+	padding-bottom: 150px;
+	border-radius: 100px;
+	text-align: center;
+	background-image: url("images/login4.gif");
+	background-size: cover;
+	box-shadow: 0 10px 30px rgba(17, 17, 17, 0.10), 0 6px 12px rgba(17, 17, 17, 0.10);
+}
+.module-after-login{
+	width: 70%;
+	margin: -200px auto 50px;
+}
+.module input{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-radius: 25px;
+	line-height: 50px;
+	color: whitesmoke;
+	font-weight: bold;
+	background-color: #191970;
+	opacity: 0.6;
+	border: 3px solid #E0E0E0;
+	text-align: inherit;
+	font-size: 20px;
+	outline: none;
+	min-width: 500px;
+}
+::placeholder{
+	color: #BDBDBD;
+}
+.module button.btn, button{
+	font-family: 'productbold';
+	background: #191970;
+	opacity: 0.9;
+	color: #FFFFFF;
+	font-size: 20px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	min-width: 250px;
+	min-height: 50px;
+}
+button:focus, .module button.btn:focus{
+	outline: 0;
+}
+button{
+	transition: all 0.3s linear;
+	background: #2A2A2A;
+	font-family: 'productreg';
+	border: 2px solid #FFFFFF;
+	min-width: 150px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top:	20px;
+}
+input:disabled{
+	color: #B0B0B0;
+	border: 3px solid #B0B0B0;
+}
+button:disabled{
+	border: 2px solid #AAAAAA;
+	color: #707070;
+}
+button:hover{
+	background: #4A4A4A;
+}
+h4{
+	border-top: 2px solid #FFFFFF;
+	margin-top: 30px;
+	padding-top: 20px;
+	max-width: 700px;
+	margin: 30px auto 0;
+	font-family: 'productbold';
+	font-size: 35px
+}
+.ticket{
+	display: inline-block;
+	border: 2px solid #fbc02d;
+	border-radius: 20px;
+	margin: 15px 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+.login-header h4{
+	font-family: 'productreg';
+	border: none;
+	margin: 15px auto 0;
+	padding-top: 0;
+}
+h5{
+	font-family: 'productbold';
+	margin-top: 20px;
+	font-size: 25px
+}
+h6{
+	margin-top: 10px;
+	font-size: 15px
+}
+.picker__box{
+	background: #424242;
+	border-radius: 30px;
+}
+.picker__day--disabled, .picker__day--disabled:hover, .picker--focused .picker__day--disabled{
+	background-color: #2A2A2A;
+	border-color: #2A2A2A;
+	color: #B0B0B0;
+}
+.picker__button--today, .picker__button--clear, .picker__button--close{
+	background: #424242;
+	color: #BDBDBD;
+	border-color: #424242; 
+}
+.picker{
+	color: #FFFFFF;
+}
+.picker__day--outfocus{
+	color: #B0B0B0;
+}
+.picker__list-item, .picker--time .picker__box{
+	background: #424242;
+}
+.picker__list{
+	margin-top: 17px;
+}
+.picker__list-item{
+	border-top: none;
+}

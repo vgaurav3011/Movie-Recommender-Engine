@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container" style="margin-top:50px;">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form action="" method="POST">
+                    {% if error %}
+                        <p class=error><strong>Error:</strong> {{ error }}
+                    {% endif %}
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon3">Your Username</span>
+                        <input type="text" class="form-control" name="username" id="user" aria-describedby="basic-addon3">
+                    </div>
+                    <br>
+			<div class="input-group">
+                        <span class="input-group-addon" id="basic-addon3">Your email</span>
+                        <input type="text" class="form-control" name="email" id="em" aria-describedby="basic-addon3">
+                    </div>
+		<br>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon3">Your Password</span>
+                        <input type="text" class="form-control" id="pass" name="password" aria-describedby="basic-addon3">
+                    </div>
+                    <br>
+                    <input type="Submit" value="Login" class="btn btn-default btn-sm">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Sign Up</title>
+<head>
+    	<link rel="shortcut icon" href="{{ url_for('static', filename='img/itachi.ico') }}">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Let's Begin</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'fonts/material-icon/css/material-design-iconic-font.min.css') }}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/css/style.css') }}">
+</head>
+<body>
+
+    <div class="main">
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="/">Tsukuyomi</a>
+                      </div>
+                      <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="http://localhost:32212/view/326065f1-d373-4b34-9812-e0db098191e0#/explore"><b>Review</b></a></li>
+                        <li><a href="/watchlist"><b>Watchlist</b></a></li>
+                        <li><a href="/log"><b>Login</b></a></li>
+                    
+                        
+
+                      </ul>
+                    </div>
+                  </nav>
+    </div>
+            <div class="container">
+            <div class="signup-content">
+                <form method="POST" id="login" class="signup-form">
+                    <h2>Let's Begin </h2>
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="username" id="username" placeholder="Your Name"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" name="email" id="email" placeholder="Email"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+                        <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- JS -->
+    <script src="{{ url_for('static', filename=  'vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename=  'js/main.js') }}"></script>
+</body>
+</html>

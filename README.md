@@ -27,8 +27,14 @@ All HTTP requests to Flask are made via encrypted POST messages. The system is d
   2. Search Optimization<br>
   3. Movie Recommendations<br>
   4. Ticket Bookings<br>
-  5. Visual Neural Net of similar movies
+  5. Visual Neural Net of similar movies<br>
+  6. Trailer Fetching from YouTube<br>
+  7. Cluster Analysis of similar users <br>
 <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Functionalities.png"/>
+<h2 align="center">
+  Watchlist
+ <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Watchlist1.png"/>
+</h2>
 <h2 align="center">
   Recommender
   <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Movie_Recommender_View.png"/>

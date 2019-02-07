@@ -11,6 +11,8 @@ The system is divided into a multilayered architecture comprimising of a web bas
 </p>
 </h4>
 <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Login_Page.png"/>
+<img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Sign_Up.png"/>
+
 <p align="left">
 The system provides movie recommendations using Collaborative Filtering technique and an onsite booking and management system for a theatre (franchise). The stakeholders takein into consideration are the cashier at the booking kiosk, who books tickets in exchange for payment, and the other being the manager who has the power of defining statistics, change prices, schedules movies, and adds new movies that are to be premiered.
 </p>
@@ -34,5 +36,8 @@ All HTTP requests to Flask are made via encrypted POST messages. The system is d
 <p align="left">
   The recommender comprimises of a collection of over 10000 movies taken from the Open Movie Database implemented in GraphLab IDE and is accompanied by a search optimization function which allows to search similar movies to the users.The technique is based on a collaborative filtering algorithm which clusters the similar interest users into a single region and thereby provides relevant recommendations efficiently.
 </p>
+## Navigation diagram
+<br>
+<img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/nav.jpg"/>
   
 

@@ -50,6 +50,7 @@ All HTTP requests to Flask are made via encrypted POST messages. The system is d
   
 <h3 align="center">Navigation diagram</h3>
 <br>
+<p align="center">
 <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/nav.jpg"/>
-  
+</p> 
 

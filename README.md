@@ -1,7 +1,5 @@
 # Tsukuyomi
-<p align="left">
-A movie recommendation engine based Database Management System built as an open source movie recommender to promote freedom of software.Tsukuyomi is a dynamically designed database with input features of Artificial Intelligence and Machine Learning which transforms it from a static database into a self-enhancing database where users can access movie ratings, submit new ratings and it would learn their preferences providing them with relevant recommendations.
-</p>
+A movie recommendation engine based Database Management System built as an open source movie recommender to promote freedom of software.Tsukuyomi is a dynamically designed Database with input features of Artificial Intelligence and Machine Learning which transforms it from a static database into a self-enhancing database where users can access movie ratings, submit new ratings and it would learn their preferences providing them with relevant recommendations. 
 <h1 align="left">
   Homepage
   <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Homepage.png"/>
@@ -13,25 +11,28 @@ The system is divided into a multilayered architecture comprimising of a web bas
 </p>
 </h4>
 <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Login_Page.png"/>
-<h4 p align="left">
+<p align="left">
 The system provides movie recommendations using Collaborative Filtering technique and an onsite booking and management system for a theatre (franchise). The stakeholders takein into consideration are the cashier at the booking kiosk, who books tickets in exchange for payment, and the other being the manager who has the power of defining statistics, change prices, schedules movies, and adds new movies that are to be premiered.
 </p>
-</h4>
-<h5 p align="center">
-All HTTP requests to Flask are made via encrypted POST messages. The system is designed to be secure, robust and flexible. The requirements mandated the use of a stored procedure and a trigger in MySQL. The schema follows third NF normalization form.
+<p align="center">
+All HTTP requests to Flask are made via encrypted POST messages. The system is designed to be secure, robust and flexible. The requirements mandated the use of a stored procedure and a trigger in MySQL. The schema follows 3NF normalization form.
 </p>
-</h5>
 <h2 align="center">
   Features
-<img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Functionalities.png"/>
 </h2>
+<p align="left">
+  1. Offline Connectivity
+  2. Search Optimization
+  3. Movie Recommendations
+  4. Ticket Bookings
+  5. Visual Neural Net of similar movies
+<img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Functionalities.png"/>
 <h2 align="center">
   Recommender
   <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Movie_Recommender_View.png"/>
 </h2>
-<h5 p align="left">
+<p align="left">
   The recommender comprimises of a collection of over 10000 movies taken from the Open Movie Database implemented in GraphLab IDE and is accompanied by a search optimization function which allows to search similar movies to the users.The technique is based on a collaborative filtering algorithm which clusters the similar interest users into a single region and thereby provides relevant recommendations efficiently.
 </p>
-</h5>
   
 

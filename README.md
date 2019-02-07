@@ -21,10 +21,10 @@ All HTTP requests to Flask are made via encrypted POST messages. The system is d
   Features
 </h2>
 <p align="left">
-  1. Offline Connectivity
-  2. Search Optimization
-  3. Movie Recommendations
-  4. Ticket Bookings
+  1. Offline Connectivity<br>
+  2. Search Optimization<br>
+  3. Movie Recommendations<br>
+  4. Ticket Bookings<br>
   5. Visual Neural Net of similar movies
 <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Functionalities.png"/>
 <h2 align="center">

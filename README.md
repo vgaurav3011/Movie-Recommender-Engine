@@ -1,5 +1,5 @@
 # Tsukuyomi
-A movie recommendation engine based Database Management System built as an open source movie recommender to promote freedom of software
+A movie recommendation engine based Database Management System built as an open source movie recommender to promote freedom of software.Tsukuyomi is a dynamically designed Database with input features of Artificial Intelligence and Machine Learning which transforms it from a static database into a self-enhancing database where users can access movie ratings, submit new ratings and it would learn their preferences providing them with relevant recommendations. 
 <h1 align="left">
   Homepage
   <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Homepage.png"/>

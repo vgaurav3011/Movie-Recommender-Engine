@@ -2,7 +2,7 @@
 A movie recommendation engine based Database Management System built as an open source movie recommender to promote freedom of software
 <h1 align="center">
   Homepage
-  <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/Homepage.png"/>
+  <img src="https://github.com/vgaurav3011/Tsukuyomi/blob/master/pics/Homepage.png"/>
 </h1>
 <h5 align="center">A complete movie recommender system with ticket booking facilities too</h5>
 <h6 align="center">Created as part of the Database Management System Project of 5th Semester BE CSE</h6> 
